@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup form</title>
+    <style>
+        .flex-container{
+            text-align: justify;
+            margin-right: 2in;
+            margin-top: 1.5in;
+            float: right;
+            padding-top: 0.5in;
+            padding-right: 1.5in;
+            padding-left: 0.5in;
+            padding-bottom: 1in;
+            border-radius: 17px;
+            color: white;
+            background-color: linear-gradient(to bottom right ,#0c133f,#1b011a) ;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 1), 0 6px 20px 0 rgba(0, 0, 0, 1);
+        }
+        .flex-container:hover{
+            box-shadow: 1px 4px 2px 0 rgb(0, 0, 0) , 1px 10px 10px 10px rgb(0, 0, 0);
+        }
+        body{
+           background-image:url("Blue_and_White_Gradient_Desktop_Wallpaper.png");
+           
+        }
+        h2{
+            text-align: center;
+            margin-left: 70px;
+        }
+        button {
+           transition: 0.5s;
+           border-radius: 5px;
+           padding-top: 5px;
+           padding-bottom: 5px ;
+           padding-right: 10px ;
+           padding-left: 10px;
+           background-color:#bd0e91;
+           border: none;
+           background-image: linear-gradient(to right, #1b011a 0%, #77072c  50%, #1b011a  100%);
+           background-size: 30px;
+           color: white;            
+           box-shadow: 0 0 2px #eee;
+           display: block;
+           
+        }
+          button:hover {
+            background-position: right center; /* change the direction of the change here */
+            color: #fff;
+            text-decoration: none;
+          }
+        
+        .btn a{
+            
+            text-decoration: none;
+            color: white;
+            text-transform: uppercase;
+        }
+        #uname,#pass{
+            border: none;
+            outline: none;
+            color: white;
+            border-bottom: solid white 2px;
+            background:none;
+            margin-right: 20px;
+        }
+        h5 a{
+            color: white;
+            margin-left: 100px;
+            text-decoration: none;
+        }
+        .flex-box{
+            margin-left: 40px;
+        }
+    </style>
+</head>
+<body>
+    <section class="SignIn">
+            <div class="flex-container ">
+                <div class="flex-box">
+                   <form action="">
+                    <div class="flex">
+                        <div class="signin">
+                            <h2>
+                                Login
+                            </h2>
+                        </div>
+                        <label for="uname">User Name: </label> <br>
+                        <input type="text" name="uname" id="uname">
+                    </div>
+                    <br>
+                    <div class="flex">
+                    <label for="pass">Password: &ensp; </label> <br>
+                    <input type="password" name="pass " id="pass">
+                </div>
+                <br>
+                <div class="btn">
+                <button type="submit">
+                    <a href="#" target="_blank" rel="noopener noreferrer">Login </a>
+
+                </button>
+                <a href="#" class="forget">
+                    Forget Password
+                </a>
+            </div>
+            <div class="signup">
+                <h5>
+                    <a href="#">
+                        Create a new account
+                    </a>
+                </h5>
+            </div>
+                </form>
+                </div>
+            </div>
+        
+    </section>
+</body>
+</html>
